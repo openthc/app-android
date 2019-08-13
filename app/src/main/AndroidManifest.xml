@@ -3,7 +3,7 @@
           xmlns:dist="http://schemas.android.com/apk/distribution"
           package="com.openthc.app">
 
-    <dist:module dist:instant="true"/>
+    <!--<dist:module dist:instant="true"/>-->
 
     <uses-feature android:name="android.hardware.camera" android:required="true"/>
     <uses-feature android:name="android.hardware.camera.autofocus" />
@@ -20,6 +20,7 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+
         <activity
                 android:name=".HostActivity"
                 android:configChanges="orientation|keyboardHidden|screenSize"
@@ -30,6 +31,7 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.openthc.app.MainActivity"/>
         </activity>
+
         <activity
                 android:name=".AuthScanActivity"
                 android:label="@string/title_activity_auth_scan"
@@ -39,6 +41,7 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.openthc.app.MainActivity"/>
         </activity>
+
         <activity
                 android:name=".MainActivity"
                 android:theme="@style/AppTheme.NoActionBar">
@@ -49,10 +52,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <activity
                 android:name=".AuthActivity"
                 android:label="@string/app_name">
         </activity>
+
         <activity
                 android:name=".SettingsActivity"
                 android:label="@string/title_activity_settings"
@@ -61,12 +66,14 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.openthc.app.MainActivity"/>
         </activity>
+
         <activity
                 android:name=".RetailSideActivity"
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:label="@string/title_activity_retail_side"
                 android:theme="@style/FullscreenTheme">
         </activity>
+
         <activity
                 android:name=".SupplySideActivity"
                 android:configChanges="orientation|keyboardHidden|screenSize"
