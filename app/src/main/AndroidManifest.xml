@@ -33,7 +33,7 @@
         </activity>
 
         <activity
-                android:name=".AuthScanActivity"
+                android:name=".ScanActivity"
                 android:label="@string/title_activity_auth_scan"
                 android:parentActivityName=".MainActivity"
                 android:theme="@style/AppTheme.NoActionBar">
