@@ -43,7 +43,7 @@ class AuthActivity : AppCompatActivity() {
         val loading = findViewById<ProgressBar>(R.id.loading)
 
         hostname.setText( appConf.getString("hostname", "https://app.openthc.dev"), android.widget.TextView.BufferType.NORMAL)
-        username.setText( appConf.getString("username", "user@app.openthc.dev"), android.widget.TextView.BufferType.NORMAL)
+        username.setText( appConf.getString("username", "demo@app.openthc.dev"), android.widget.TextView.BufferType.NORMAL)
         //hostname.text =
         //username.setText( appConf.getString("username") )
         //password.setText( appConf.getString("password") )

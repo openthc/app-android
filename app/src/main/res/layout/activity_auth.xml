@@ -26,6 +26,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
+
     <EditText
             android:id="@+id/username"
             android:layout_width="0dp"
@@ -43,6 +44,7 @@
 
     <EditText
             android:id="@+id/password"
+            android:enabled="false"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -59,7 +61,7 @@
 
     <Button
             android:id="@+id/btnAuth"
-            android:enabled="false"
+            android:enabled="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
